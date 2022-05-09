@@ -1,6 +1,7 @@
+
 module.exports = {
-    "name": "sdk-samples",
-    "publisher": "Sample",
+    "name": "kishba-sdk-samples",
+    "publisher": "Brandon Kish",
     "configuration": {
         "client": [{
             "key": "extension-client-url",
@@ -183,6 +184,9 @@ module.exports = {
         },
         "customConfiguration": {
             "source": "./src/cards/MarkdownTemplateConfig.jsx"
+        },
+        "pageRoute": {
+            "route": "/"
         }
     }],
     "page": {
